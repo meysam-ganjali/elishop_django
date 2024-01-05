@@ -1,0 +1,2704 @@
+{% load static %}
+<html lang="en" dir="rtl">
+
+<head>
+    <!-- REQUIRE META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- TEMPLATE META -->
+    <meta name="name" content="Greeny">
+    <meta name="title" content="Greeny - eCommerce HTML Template">
+    <meta name="keywords"
+        content="organic, food, shop, ecommerce, store, html, bootstrap, template, agriculture, vegetables, webshop, farm, grocery, natural, online store">
+
+    <!-- WEBPAGE TITLE -->
+    <title> الی شاپ - خانه </title>
+
+    <!-- FAVICON -->
+    <link rel="icon" href=" {% static '/images/favicon.png' %}">
+
+    <!-- FONTS -->
+    <link rel="stylesheet" href=" {% static  '/fonts/flaticon/flaticon.css' %}">
+    <link rel="stylesheet" href=" {% static '/fonts/icofont/icofont.min.css' %} ">
+    <link rel="stylesheet" href="{% static '/fonts/fontawesome/fontawesome.min.css' %} ">
+
+    <!-- VENDOR -->
+    <link rel="stylesheet" href="{% static '/vendor/venobox/venobox.min.css' %} ">
+    <link rel="stylesheet" href="{% static '/vendor/slickslider/slick.min.css' %} ">
+    <link rel="stylesheet" href="{% static '/vendor/niceselect/nice-select.min.css' %} ">
+    <link rel="stylesheet" href="{% static '/vendor/bootstrap/bootstrap.min.css' %} ">
+
+    <!-- CUSTOM -->
+    <link rel="stylesheet" href="{% static '/css/main.css' %} ">
+    <link rel="stylesheet" href="{% static '/css/index.css' %}">
+    <!--=====================================
+                    CSS LINK PART END
+        =======================================-->
+</head>
+
+<body>
+    <div id="loding">
+        <h1 class="custom-text-light"> الی شاپ </h1>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            style="margin: auto; display: block; shape-rendering: auto;" width="200px" height="200px"
+            viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+            <g transform="translate(50 50) scale(0.7000000000000001) translate(-50 -50)">
+                <g>
+                    <animateTransform attributeName="transform" type="rotate" repeatCount="indefinite" calcMode="spline"
+                        dur="4s" values="0 50 50;90 50 50;180 50 50;270 50 50;360 50 50" keyTimes="0;0.25;0.5;0.75;1"
+                        keySplines="0 1 0 1;0 1 0 1;0 1 0 1;0 1 0 1" />
+                    <g>
+                        <animateTransform attributeName="transform" type="scale" dur="1s" repeatCount="indefinite"
+                            calcMode="spline" values="1;1;0.5" keyTimes="0;0.5;1" keySplines="1 0 0 1;1 0 0 1" />
+                        <g transform="translate(25 25)">
+                            <rect x="-25" y="-25" width="52" height="52" fill="#e15b64">
+
+                                <animate attributeName="fill" dur="4s" repeatCount="indefinite" calcMode="spline"
+                                    values="#e15b64;#f47e60;#f8b26a;#abbd81;#e15b64" keyTimes="0;0.25;0.5;0.75;1"
+                                    keySplines="0 1 0 1;0 1 0 1;0 1 0 1;0 1 0 1" />
+                            </rect>
+                        </g>
+                        <g transform="translate(25 75)">
+                            <rect x="-25" y="-25" width="52" height="50" fill="#e15b64">
+                                <animateTransform attributeName="transform" type="scale" dur="1s"
+                                    repeatCount="indefinite" calcMode="spline" values="0;1;1" keyTimes="0;0.5;1"
+                                    keySplines="1 0 0 1;1 0 0 1" />
+                                <animate attributeName="fill" dur="4s" repeatCount="indefinite" calcMode="spline"
+                                    values="#e15b64;#f47e60;#f8b26a;#abbd81;#e15b64" keyTimes="0;0.25;0.5;0.75;1"
+                                    keySplines="0 1 0 1;0 1 0 1;0 1 0 1;0 1 0 1" />
+                            </rect>
+                        </g>
+                        <g transform="translate(75 25)">
+                            <rect x="-25" y="-25" width="50" height="52" fill="#e15b64">
+                                <animateTransform attributeName="transform" type="scale" dur="1s"
+                                    repeatCount="indefinite" calcMode="spline" values="0;1;1" keyTimes="0;0.5;1"
+                                    keySplines="1 0 0 1;1 0 0 1" />
+                                <animate attributeName="fill" dur="4s" repeatCount="indefinite" calcMode="spline"
+                                    values="#e15b64;#f47e60;#f8b26a;#abbd81;#e15b64" keyTimes="0;0.25;0.5;0.75;1"
+                                    keySplines="0 1 0 1;0 1 0 1;0 1 0 1;0 1 0 1" />
+                            </rect>
+                        </g>
+                        <g transform="translate(75 75)">
+                            <rect x="-25" y="-25" width="50" height="50" fill="#e15b64">
+                                <animateTransform attributeName="transform" type="scale" dur="1s"
+                                    repeatCount="indefinite" calcMode="spline" values="0;1;1" keyTimes="0;0.5;1"
+                                    keySplines="1 0 0 1;1 0 0 1" />
+                                <animate attributeName="fill" dur="4s" repeatCount="indefinite" calcMode="spline"
+                                    values="#e15b64;#f47e60;#f8b26a;#abbd81;#e15b64" keyTimes="0;0.25;0.5;0.75;1"
+                                    keySplines="0 1 0 1;0 1 0 1;0 1 0 1;0 1 0 1" />
+                            </rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </svg>
+    </div>
+    <div class="backdrop"></div>
+    <a class="backtop fas fa-arrow-up" href="#" style="display: none;"></a>
+    <nav class="navbar-part my-2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="navbar-content justify-content-around">
+                        <div>
+                            <label class="theme-switch">
+                                <input type="checkbox" checked onclick="ChangeThem(this)"
+                                    class="theme-switch__checkbox">
+                                <div class="theme-switch__container">
+                                    <div class="theme-switch__clouds"></div>
+                                    <div class="theme-switch__stars-container">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 55" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M135.831 3.00688C135.055 3.85027 134.111 4.29946 133 4.35447C134.111 4.40947 135.055 4.85867 135.831 5.71123C136.607 6.55462 136.996 7.56303 136.996 8.72727C136.996 7.95722 137.172 7.25134 137.525 6.59129C137.886 5.93124 138.372 5.39954 138.98 5.00535C139.598 4.60199 140.268 4.39114 141 4.35447C139.88 4.2903 138.936 3.85027 138.16 3.00688C137.384 2.16348 136.996 1.16425 136.996 0C136.996 1.16425 136.607 2.16348 135.831 3.00688ZM31 23.3545C32.1114 23.2995 33.0551 22.8503 33.8313 22.0069C34.6075 21.1635 34.9956 20.1642 34.9956 19C34.9956 20.1642 35.3837 21.1635 36.1599 22.0069C36.9361 22.8503 37.8798 23.2903 39 23.3545C38.2679 23.3911 37.5976 23.602 36.9802 24.0053C36.3716 24.3995 35.8864 24.9312 35.5248 25.5913C35.172 26.2513 34.9956 26.9572 34.9956 27.7273C34.9956 26.563 34.6075 25.5546 33.8313 24.7112C33.0551 23.8587 32.1114 23.4095 31 23.3545ZM0 36.3545C1.11136 36.2995 2.05513 35.8503 2.83131 35.0069C3.6075 34.1635 3.99559 33.1642 3.99559 32C3.99559 33.1642 4.38368 34.1635 5.15987 35.0069C5.93605 35.8503 6.87982 36.2903 8 36.3545C7.26792 36.3911 6.59757 36.602 5.98015 37.0053C5.37155 37.3995 4.88644 37.9312 4.52481 38.5913C4.172 39.2513 3.99559 39.9572 3.99559 40.7273C3.99559 39.563 3.6075 38.5546 2.83131 37.7112C2.05513 36.8587 1.11136 36.4095 0 36.3545ZM56.8313 24.0069C56.0551 24.8503 55.1114 25.2995 54 25.3545C55.1114 25.4095 56.0551 25.8587 56.8313 26.7112C57.6075 27.5546 57.9956 28.563 57.9956 29.7273C57.9956 28.9572 58.172 28.2513 58.5248 27.5913C58.8864 26.9312 59.3716 26.3995 59.9802 26.0053C60.5976 25.602 61.2679 25.3911 62 25.3545C60.8798 25.2903 59.9361 24.8503 59.1599 24.0069C58.3837 23.1635 57.9956 22.1642 57.9956 21C57.9956 22.1642 57.6075 23.1635 56.8313 24.0069ZM81 25.3545C82.1114 25.2995 83.0551 24.8503 83.8313 24.0069C84.6075 23.1635 84.9956 22.1642 84.9956 21C84.9956 22.1642 85.3837 23.1635 86.1599 24.0069C86.9361 24.8503 87.8798 25.2903 89 25.3545C88.2679 25.3911 87.5976 25.602 86.9802 26.0053C86.3716 26.3995 85.8864 26.9312 85.5248 27.5913C85.172 28.2513 84.9956 28.9572 84.9956 29.7273C84.9956 28.563 84.6075 27.5546 83.8313 26.7112C83.0551 25.8587 82.1114 25.4095 81 25.3545ZM136 36.3545C137.111 36.2995 138.055 35.8503 138.831 35.0069C139.607 34.1635 139.996 33.1642 139.996 32C139.996 33.1642 140.384 34.1635 141.16 35.0069C141.936 35.8503 142.88 36.2903 144 36.3545C143.268 36.3911 142.598 36.602 141.98 37.0053C141.372 37.3995 140.886 37.9312 140.525 38.5913C140.172 39.2513 139.996 39.9572 139.996 40.7273C139.996 39.563 139.607 38.5546 138.831 37.7112C138.055 36.8587 137.111 36.4095 136 36.3545ZM101.831 49.0069C101.055 49.8503 100.111 50.2995 99 50.3545C100.111 50.4095 101.055 50.8587 101.831 51.7112C102.607 52.5546 102.996 53.563 102.996 54.7273C102.996 53.9572 103.172 53.2513 103.525 52.5913C103.886 51.9312 104.372 51.3995 104.98 51.0053C105.598 50.602 106.268 50.3911 107 50.3545C105.88 50.2903 104.936 49.8503 104.16 49.0069C103.384 48.1635 102.996 47.1642 102.996 46C102.996 47.1642 102.607 48.1635 101.831 49.0069Z"
+                                                fill="currentColor"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="theme-switch__circle-container">
+                                        <div class="theme-switch__sun-moon-container">
+                                            <div class="theme-switch__moon">
+                                                <div class="theme-switch__spot"></div>
+                                                <div class="theme-switch__spot"></div>
+                                                <div class="theme-switch__spot"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="navbar-info-group">
+                            <div class="navbar-info">
+                                <i class="icofont-ui-touch-phone"></i>
+                                <p class="custom-text-light">
+                                    <small> برای خرید تلفنی تماس بگیرید </small>
+                                    <span> 9998 888 021 </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--=====================================
+                    HEADER PART START
+        =======================================-->
+    <header class="header-part">
+        <div class="container">
+            <div class="header-content justify-content-between">
+                <div class="header-media-group">
+                    <button class="header-user"><img src="images/user.png" alt="user"> <small class="custom-text-light">
+                            سبحان
+                            شافعی </small>
+                    </button>
+                    <a href="login.html"
+                        class="btn btn-outline-light rounded btn-sm py-1 px-3 d-flex align-items-center" title="ورود">
+                        <i class="fas fa-sign-in-alt"></i>
+                        <span>ورود</span>
+                    </a>
+                    <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    <button class="header-widget header-cart first-header-cart" title="Cartlist">
+                        <i class="fas fa-shopping-basket"></i>
+                        <sup>9+</sup>
+                        <span><small>
+                                سبد خرید
+                            </small></span>
+                    </button>
+                </div>
+
+                <section class="d-none d-lg-flex">
+                    <a href="index.html" class="header-logo">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                    <button class="header-user thow-header-user ms-4"><img src="images/user.png" alt="user"> <small
+                            class="custom-text-light"> سبحان
+                            شافعی </small>
+                    </button>
+                    <a href="login.html"
+                        class="btn btn-outline-light btn-sm rounded py-1 px-3 d-flex align-items-center" title="ورود">
+                        <i class="fas fa-sign-in-alt"></i>
+                        <span>ورود</span>
+                    </a>
+                </section>
+                <form class="header-form">
+                    <input type="text" placeholder="جست و جو کن ...">
+                    <button><i class="fas fa-search"></i></button>
+                </form>
+                <div class="header-widget-group">
+                    <button class="header-widget header-cart" title="Cartlist">
+                        <i class="fas fa-shopping-basket"></i>
+                        <sup>9+</sup>
+                        <span><small>
+                                سبد خرید
+                            </small></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--=====================================
+                    HEADER PART END
+        =======================================-->
+
+    <!--=====================================
+                CATEGORY SIDEBAR PART START
+        =======================================-->
+    <aside class="category-sidebar">
+        <div class="category-header">
+            <h4 class="category-title">
+                <i class="fas fa-align-left"></i>
+                <span>دسته بندی</span>
+            </h4>
+            <button class="category-close"><i class="icofont-close"></i></button>
+        </div>
+        <ul class="category-list">
+            <li class="category-item">
+                <a class="category-link dropdown-link" href="#">
+                    <i class="flaticon-vegetable"></i>
+                    <span>سبزیجات</span>
+                </a>
+                <ul class="dropdown-list">
+                    <li><a href="#">مارچوبه</a></li>
+                    <li><a href="#">کلم بروکلی</a></li>
+                    <li><a href="#">هویج</a></li>
+                </ul>
+            </li>
+            <li class="category-item">
+                <a class="category-link dropdown-link" href="#">
+                    <i class="flaticon-groceries"></i>
+                    <span>مواد غذایی</span>
+                </a>
+                <ul class="dropdown-list">
+                    <li><a href="#">غلات و نان</a></li>
+                    <li><a href="#">لبنیات و تخم مرغ</a></li>
+                    <li><a href="#">روغن و چربی</a></li>
+                </ul>
+            </li>
+            <li class="category-item">
+                <a class="category-link dropdown-link" href="#">
+                    <i class="flaticon-fruit"></i>
+                    <span>میوه ها</span>
+                </a>
+                <ul class="dropdown-list">
+                    <li><a href="#">سیب</a></li>
+                    <li><a href="#">پرتقال</a></li>
+                    <li><a href="#">توت فرنگی</a></li>
+                </ul>
+            </li>
+            <li class="category-item">
+                <a class="category-link dropdown-link" href="#">
+                    <i class="flaticon-dairy-products"></i>
+                    <span>مزرعه لبنیات</span>
+                </a>
+                <ul class="dropdown-list">
+                    <li><a href="#">خامه</a></li>
+                    <li><a href="#">شیر</a></li>
+                    <li><a href="#">کره</a></li>
+                </ul>
+            </li>
+            <li class="category-item">
+                <a class="category-link dropdown-link" href="#">
+                    <i class="flaticon-crab"></i>
+                    <span>مواد غذایی دریایی</span>
+                </a>
+                <ul class="dropdown-list">
+                    <li><a href="#">خرچنگ</a></li>
+                    <li><a href="#">اختابوس</a></li>
+                    <li><a href="#">میگو</a></li>
+                </ul>
+            </li>
+            <li class="category-item">
+                <a class="category-link dropdown-link" href="#">
+                    <i class="flaticon-salad"></i>
+                    <span>غذاهای رژیمی</span>
+                </a>
+                <ul class="dropdown-list">
+                    <li><a href="#">سالمون</a></li>
+                    <li><a href="#">سیب زمینی</a></li>
+                    <li><a href="#">سبزی</a></li>
+                </ul>
+            </li>
+            <li class="category-item">
+                <a class="category-link dropdown-link" href="#">
+                    <i class="flaticon-dried-fruit"></i>
+                    <span>غذهای خشک</span>
+                </a>
+                <ul class="dropdown-list">
+                    <li><a href="#">نودل ها</a></li>
+                    <li><a href="#">پودر شیر</a></li>
+                    <li><a href="#">آجیل و مخمر</a></li>
+                </ul>
+            </li>
+            <li class="category-item">
+                <a class="category-link dropdown-link" href="#">
+                    <i class="flaticon-fast-food"></i>
+                    <span>فست فود</span>
+                </a>
+                <ul class="dropdown-list">
+                    <li><a href="#">انبه</a></li>
+                    <li><a href="#">plumsor</a></li>
+                    <li><a href="#">کشمش</a></li>
+                </ul>
+            </li>
+            <li class="category-item">
+                <a class="category-link dropdown-link" href="#">
+                    <i class="flaticon-cheers"></i>
+                    <span>نوشیدنی ها</span>
+                </a>
+                <ul class="dropdown-list">
+                    <li><a href="#">شراب</a></li>
+                    <li><a href="#">دوغ</a></li>
+                    <li><a href="#">نوشابه</a></li>
+                </ul>
+            </li>
+            <li class="category-item">
+                <a class="category-link dropdown-link" href="#">
+                    <i class="flaticon-beverage"></i>
+                    <span>قهوه ها</span>
+                </a>
+                <ul class="dropdown-list">
+                    <li><a href="#">برزیل</a></li>
+                    <li><a href="#">اکوادور</a></li>
+                    <li><a href="#">فلیپین</a></li>
+                </ul>
+            </li>
+            <li class="category-item">
+                <a class="category-link dropdown-link" href="#">
+                    <i class="flaticon-barbecue"></i>
+                    <span>گوشت ها</span>
+                </a>
+                <ul class="dropdown-list">
+                    <li><a href="#">کوفته</a></li>
+                    <li><a href="#">سوسیس</a></li>
+                    <li><a href="#">کبابی</a></li>
+                </ul>
+            </li>
+            <li class="category-item">
+                <a class="category-link dropdown-link" href="#">
+                    <i class="flaticon-fish"></i>
+                    <span>ماهی ها</span>
+                </a>
+                <ul class="dropdown-list">
+                    <li><a href="#">سبور</a></li>
+                    <li><a href="#">قزل آلا</a></li>
+                    <li><a href="#">سفید</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="category-footer">
+            <p>کلیه حقوق این قالب متعلق به <a href="#">میوه باما است</a></p>
+        </div>
+    </aside>
+    <!--=====================================
+                CATEGORY SIDEBAR PART END
+        =======================================-->
+
+
+    <!--=====================================
+                  CART SIDEBAR PART START
+        =======================================-->
+    <aside class="cart-sidebar">
+        <div class="cart-header">
+            <div class="cart-total">
+                <i class="fas fa-shopping-basket"></i>
+                <span>کل مورد (5)</span>
+            </div>
+            <button class="cart-close"><i class="icofont-close"></i></button>
+        </div>
+        <ul class="cart-list px-2">
+            <li class="cart-item">
+                <div class="cart-media">
+                    <a href="#"><img src="images/product/01.jpg" alt="product"></a>
+                    <button class="cart-delete"><i class="far fa-trash-alt"></i></button>
+                </div>
+                <div class="cart-info-group">
+                    <div class="cart-info">
+                        <h6><a href="product-single.html">نام محصول موجود</a></h6>
+                        <p>قیمت واحد - 5 ریال</p>
+                    </div>
+                    <div class="cart-action-group">
+                        <div class="product-action">
+                            <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                            <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity" value="1">
+                            <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                        </div>
+                        <h6>56 ريال</h6>
+                    </div>
+                </div>
+            </li>
+            <li class="cart-item">
+                <div class="cart-media">
+                    <a href="#"><img src="images/product/02.jpg" alt="product"></a>
+                    <button class="cart-delete"><i class="far fa-trash-alt"></i></button>
+                </div>
+                <div class="cart-info-group">
+                    <div class="cart-info">
+                        <h6><a href="product-single.html">نام محصول</a></h6>
+                        <p>قیمت واحد - 5 ریال</p>
+                    </div>
+                    <div class="cart-action-group">
+                        <div class="product-action">
+                            <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                            <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity" value="1">
+                            <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                        </div>
+                        <h6>56 ريال</h6>
+                    </div>
+                </div>
+            </li>
+            <li class="cart-item">
+                <div class="cart-media">
+                    <a href="#"><img src="images/product/03.jpg" alt="product"></a>
+                    <button class="cart-delete"><i class="far fa-trash-alt"></i></button>
+                </div>
+                <div class="cart-info-group">
+                    <div class="cart-info">
+                        <h6><a href="product-single.html">نام محصول</a></h6>
+                        <p>قیمت واحد - 5 ریال</p>
+                    </div>
+                    <div class="cart-action-group">
+                        <div class="product-action">
+                            <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                            <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity" value="1">
+                            <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                        </div>
+                        <h6>56 ريال</h6>
+                    </div>
+                </div>
+            </li>
+            <li class="cart-item">
+                <div class="cart-media">
+                    <a href="#"><img src="images/product/04.jpg" alt="product"></a>
+                    <button class="cart-delete"><i class="far fa-trash-alt"></i></button>
+                </div>
+                <div class="cart-info-group">
+                    <div class="cart-info">
+                        <h6><a href="product-single.html">نام محصول</a></h6>
+                        <p>قیمت واحد - 5 ریال</p>
+                    </div>
+                    <div class="cart-action-group">
+                        <div class="product-action">
+                            <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                            <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity" value="1">
+                            <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                        </div>
+                        <h6>56 ريال</h6>
+                    </div>
+                </div>
+            </li>
+            <li class="cart-item">
+                <div class="cart-media">
+                    <a href="#"><img src="images/product/05.jpg" alt="product"></a>
+                    <button class="cart-delete"><i class="far fa-trash-alt"></i></button>
+                </div>
+                <div class="cart-info-group">
+                    <div class="cart-info">
+                        <h6><a href="product-single.html">نام محصول</a></h6>
+                        <p>قیمت واحد - 5 ریال</p>
+                    </div>
+                    <div class="cart-action-group">
+                        <div class="product-action">
+                            <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                            <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity" value="1">
+                            <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                        </div>
+                        <h6>56 ريال</h6>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="cart-footer">
+            <button class="coupon-btn">آیا کد تخفیف دارید؟</button>
+            <form class="coupon-form">
+                <input type="text" placeholder="کد تخفیف خود را وارد کنید">
+                <button type="submit"><span>ثبت</span></button>
+            </form>
+            <a class="cart-checkout-btn px-2" href="checkout.html">
+                <span class="checkout-label">برو به تسویه حساب</span>
+                <span class="checkout-price">369 ريال</span>
+            </a>
+        </div>
+    </aside>
+    <!--=====================================
+                    CART SIDEBAR PART END
+        =======================================-->
+
+
+    <!--=====================================
+                  NAV SIDEBAR PART START
+        =======================================-->
+    <aside class="nav-sidebar">
+        <div class="nav-header">
+            <a href="#"><img src="images/logo.png" alt="logo"></a>
+            <button class="nav-close"><i class="icofont-close"></i></button>
+        </div>
+        <div class="nav-content">
+            <div class="nav-btn">
+                <a href="login.html" class="btn btn-inline">
+                    <i class="fa fa-unlock-alt"></i>
+                    <span>به اینجا بپیوندید</span>
+                </a>
+            </div>
+            <!-- This commentable code show when user login or register -->
+            <div class="nav-profile">
+                <a class="nav-user" href="#"><img src="images/user.png" alt="user"></a>
+                <h4 class="nav-name"><a href="profile.html"> sobhan shafei </a></h4>
+            </div>
+
+            <ul class="nav-list">
+                <li>
+                    <a class="nav-link dropdown-link" href="#"><i class="icofont-book-alt"></i>بلاگ ها</a>
+                    <ul class="dropdown-list">
+                        <li><a href="blog-grid.html">بلاگ گریدبندی</a></li>
+                        <li><a href="blog-standard.html">بلاگ استاندارد</a></li>
+                        <li><a href="blog-details.html">اطلاعات بلاگ</a></li>
+                        <li><a href="blog-author.html">نویسنده وبلاگ</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav-link" href="offer.html"><i class="icofont-sale-discount"></i>تخفیفات</a></li>
+                <li><a class="nav-link" href="about.html"><i class="icofont-info-circle"></i>درباره ما</a></li>
+                <li><a class="nav-link" href="faq.html"><i class="icofont-support-faq"></i>سوالات متداول</a></li>
+                <li><a class="nav-link" href="contact.html"><i class="icofont-contacts"></i>ارتباط با ما</a></li>
+                <li><a class="nav-link" href="privacy.html"><i class="icofont-warning"></i>سیاست حفظ حریم خصوصی</a></li>
+                <li><a class="nav-link" href="coming-soon.html"><i class="icofont-options"></i>دردست ساخت</a></li>
+                <li><a class="nav-link" href="error.html"><i class="icofont-ui-block"></i>خطای 404</a></li>
+                <li><a class="nav-link" href="login.html"><i class="icofont-logout"></i>خروج</a></li>
+            </ul>
+
+            <div class="nav-footer">
+                <p>کلیه حقوق این قالب متعلق به <a href="Https://eli-soft.ir">Eli-Soft</a> است </p>
+            </div>
+        </div>
+    </aside>
+    <!--=====================================
+                  NAV SIDEBAR PART END
+        =======================================-->
+
+    <!-- تو حالت موبایل -->
+    <!--=====================================
+                    MOBILE-MENU PART START
+        =======================================-->
+    <div class="mobile-menu">
+        <a href="index.html" title="Home Page">
+            <i class="fas fa-home"></i>
+            <span>خانه</span>
+        </a>
+        <button class="cate-btn" title="Category List">
+            <i class="fas fa-list"></i>
+            <span>دسته بندی</span>
+        </button>
+        <button class="cart-btn" title="Cartlist">
+            <i class="fas fa-shopping-basket"></i>
+            <span>سبد خرید</span>
+            <sup>9+</sup>
+        </button>
+    </div>
+    <!--=====================================
+                    MOBILE-MENU PART END
+        =======================================-->
+    <section class="mb-4 recent-part">
+        <div class="container mt-3">
+            <form action="#" method="get" class="row d-lg-none px-2 px-sm-0">
+                <input class="inputSearchHeader col-12 col-sm-7 col-lg-8" placeholder="جست و جو کن ...">
+                <button class="btn btn-light col-12 col-sm-4 mt-2 mt-sm-0 me-sm-3 me-lg-auto "> برو بگرد <i
+                        class="fas fa-search me-1"></i> </button>
+            </form>
+        </div>
+    </section>
+
+    <section class="mb-4 recent-part">
+        <div class="container mt-3">
+            <section class="competitiveAdvantage d-flex flex-wrap justify-content-around">
+                <section>
+                    <span> ارسال رایگان </span>
+                </section>
+                <section>
+                    <span> پرداخت با کالا برگ </span>
+                </section>
+                <section>
+                    <span> تخفیف روی تخفیف </span>
+                </section>
+                <section>
+                    <span> بیشترین تنوع محصول </span>
+                </section>
+            </section>
+        </div>
+    </section>
+    <!--=====================================
+                    RECENT PART START
+        =======================================-->
+    <section class="section recent-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading ">
+                        <h2> پر تخفیف ها </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+                <div class="col">
+                    <div class="product-card">
+                        <div class="product-media">
+                            <a class="product-image" href="product-video.html">
+                                <img src="images/product/01.jpg" alt="product">
+                            </a>
+                            <div class="product-widget">
+                                <a title="Product View" href="#" class="fas fa-eye"></a>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h6 class="product-name">
+                                <a href="product-video.html">فلفل سبز تازه</a>
+                            </h6>
+                            <h6 class="product-price">
+                                <del>34 ريال</del>
+                                <span>28 ريال<small>/کیلو</small></span>
+                            </h6>
+                            <button class="product-add" title="افزودن به سبد خرید">
+                                <i class="fas fa-shopping-basket"></i>
+                                <span>افزودن</span>
+                            </button>
+                            <div class="product-action">
+                                <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                    value="1">
+                                <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="product-card">
+                        <div class="product-media">
+                            <a class="product-image" href="product-video.html">
+                                <img src="images/product/02.jpg" alt="product">
+                            </a>
+                            <div class="product-widget">
+                                <a title="Product View" href="#" class="fas fa-eye"></a>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h6 class="product-name">
+                                <a href="product-video.html">فلفل سبز تازه</a>
+                            </h6>
+                            <h6 class="product-price">
+                                <del>34 ريال</del>
+                                <span>28 ريال<small>/کیلو</small></span>
+                            </h6>
+                            <button class="product-add" title="افزودن به سبد خرید">
+                                <i class="fas fa-shopping-basket"></i>
+                                <span>افزودن</span>
+                            </button>
+                            <div class="product-action">
+                                <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                    value="1">
+                                <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="product-card">
+                        <div class="product-media">
+                            <a class="product-image" href="product-video.html">
+                                <img src="images/product/03.jpg" alt="product">
+                            </a>
+                            <div class="product-widget">
+                                <a title="Product View" href="#" class="fas fa-eye"></a>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h6 class="product-name">
+                                <a href="product-video.html">فلفل سبز تازه</a>
+                            </h6>
+                            <h6 class="product-price">
+                                <del>34 ريال</del>
+                                <span>28 ريال<small>/کیلو</small></span>
+                            </h6>
+                            <button class="product-add" title="افزودن به سبد خرید">
+                                <i class="fas fa-shopping-basket"></i>
+                                <span>افزودن</span>
+                            </button>
+                            <div class="product-action">
+                                <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                    value="1">
+                                <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="product-card">
+                        <div class="product-media">
+                            <a class="product-image" href="product-video.html">
+                                <img src="images/product/04.jpg" alt="product">
+                            </a>
+                            <div class="product-widget">
+                                <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                    data-bs-target="#product-view"></a>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h6 class="product-name">
+                                <a href="product-video.html">فلفل سبز تازه</a>
+                            </h6>
+                            <h6 class="product-price">
+                                <del>34 ريال</del>
+                                <span>28 ريال<small>/کیلو</small></span>
+                            </h6>
+                            <button class="product-add" title="افزودن به سبد خرید">
+                                <i class="fas fa-shopping-basket"></i>
+                                <span>افزودن</span>
+                            </button>
+                            <div class="product-action">
+                                <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                    value="1">
+                                <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="product-card">
+                        <div class="product-media">
+                            <div class="product-label">
+                                <label class="label-text sale">فروش</label>
+                            </div>
+                            <button class="product-wish wish">
+                                <i class="fas fa-heart"></i>
+                            </button>
+                            <a class="product-image" href="product-video.html">
+                                <img src="images/product/05.jpg" alt="product">
+                            </a>
+                            <div class="product-widget">
+                                <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                    class="venobox fas fa-play vbox-item" data-autoplay="true" data-vbtype="video"></a>
+                                <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                    data-bs-target="#product-view"></a>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <div class="product-rating">
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="icofont-star"></i>
+                                <a href="product-video.html">(3)</a>
+                            </div>
+                            <h6 class="product-name">
+                                <a href="product-video.html">فلفل سبز تازه</a>
+                            </h6>
+                            <h6 class="product-price">
+                                <del>34 ريال</del>
+                                <span>28 ريال<small>/کیلو</small></span>
+                            </h6>
+                            <button class="product-add" title="افزودن به سبد خرید">
+                                <i class="fas fa-shopping-basket"></i>
+                                <span>افزودن</span>
+                            </button>
+                            <div class="product-action">
+                                <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                    value="1">
+                                <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="product-card">
+                        <div class="product-media">
+                            <div class="product-label">
+                                <label class="label-text sale">فروش</label>
+                            </div>
+                            <button class="product-wish wish">
+                                <i class="fas fa-heart"></i>
+                            </button>
+                            <a class="product-image" href="product-video.html">
+                                <img src="images/product/06.jpg" alt="product">
+                            </a>
+                            <div class="product-widget">
+                                <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                    class="venobox fas fa-play vbox-item" data-autoplay="true" data-vbtype="video"></a>
+                                <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                    data-bs-target="#product-view"></a>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <div class="product-rating">
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="icofont-star"></i>
+                                <a href="product-video.html">(3)</a>
+                            </div>
+                            <h6 class="product-name">
+                                <a href="product-video.html">فلفل سبز تازه</a>
+                            </h6>
+                            <h6 class="product-price">
+                                <del>34 ريال</del>
+                                <span>28 ريال<small>/کیلو</small></span>
+                            </h6>
+                            <button class="product-add" title="افزودن به سبد خرید">
+                                <i class="fas fa-shopping-basket"></i>
+                                <span>افزودن</span>
+                            </button>
+                            <div class="product-action">
+                                <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                    value="1">
+                                <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="product-card">
+                        <div class="product-media">
+                            <div class="product-label">
+                                <label class="label-text sale">فروش</label>
+                            </div>
+                            <button class="product-wish wish">
+                                <i class="fas fa-heart"></i>
+                            </button>
+                            <a class="product-image" href="product-video.html">
+                                <img src="images/product/07.jpg" alt="product">
+                            </a>
+                            <div class="product-widget">
+                                <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                    class="venobox fas fa-play vbox-item" data-autoplay="true" data-vbtype="video"></a>
+                                <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                    data-bs-target="#product-view"></a>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <div class="product-rating">
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="icofont-star"></i>
+                                <a href="product-video.html">(3)</a>
+                            </div>
+                            <h6 class="product-name">
+                                <a href="product-video.html">فلفل سبز تازه</a>
+                            </h6>
+                            <h6 class="product-price">
+                                <del>34 ريال</del>
+                                <span>28 ريال<small>/کیلو</small></span>
+                            </h6>
+                            <button class="product-add" title="افزودن به سبد خرید">
+                                <i class="fas fa-shopping-basket"></i>
+                                <span>افزودن</span>
+                            </button>
+                            <div class="product-action">
+                                <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                    value="1">
+                                <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="product-card">
+                        <div class="product-media">
+                            <div class="product-label">
+                                <label class="label-text sale">فروش</label>
+                            </div>
+                            <button class="product-wish wish">
+                                <i class="fas fa-heart"></i>
+                            </button>
+                            <a class="product-image" href="product-video.html">
+                                <img src="images/product/08.jpg" alt="product">
+                            </a>
+                            <div class="product-widget">
+                                <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                    class="venobox fas fa-play vbox-item" data-autoplay="true" data-vbtype="video"></a>
+                                <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                    data-bs-target="#product-view"></a>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <div class="product-rating">
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="icofont-star"></i>
+                                <a href="product-video.html">(3)</a>
+                            </div>
+                            <h6 class="product-name">
+                                <a href="product-video.html">فلفل سبز تازه</a>
+                            </h6>
+                            <h6 class="product-price">
+                                <del>34 ريال</del>
+                                <span>28 ريال<small>/کیلو</small></span>
+                            </h6>
+                            <button class="product-add" title="افزودن به سبد خرید">
+                                <i class="fas fa-shopping-basket"></i>
+                                <span>افزودن</span>
+                            </button>
+                            <div class="product-action">
+                                <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                    value="1">
+                                <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="product-card">
+                        <div class="product-media">
+                            <div class="product-label">
+                                <label class="label-text sale">فروش</label>
+                            </div>
+                            <button class="product-wish wish">
+                                <i class="fas fa-heart"></i>
+                            </button>
+                            <a class="product-image" href="product-video.html">
+                                <img src="images/product/09.jpg" alt="product">
+                            </a>
+                            <div class="product-widget">
+                                <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                    class="venobox fas fa-play vbox-item" data-autoplay="true" data-vbtype="video"></a>
+                                <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                    data-bs-target="#product-view"></a>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <div class="product-rating">
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="icofont-star"></i>
+                                <a href="product-video.html">(3)</a>
+                            </div>
+                            <h6 class="product-name">
+                                <a href="product-video.html">فلفل سبز تازه</a>
+                            </h6>
+                            <h6 class="product-price">
+                                <del>34 ريال</del>
+                                <span>28 ريال<small>/کیلو</small></span>
+                            </h6>
+                            <button class="product-add" title="افزودن به سبد خرید">
+                                <i class="fas fa-shopping-basket"></i>
+                                <span>افزودن</span>
+                            </button>
+                            <div class="product-action">
+                                <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                    value="1">
+                                <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="product-card">
+                        <div class="product-media">
+                            <div class="product-label">
+                                <label class="label-text sale">فروش</label>
+                            </div>
+                            <button class="product-wish wish">
+                                <i class="fas fa-heart"></i>
+                            </button>
+                            <a class="product-image" href="product-video.html">
+                                <img src="images/product/10.jpg" alt="product">
+                            </a>
+                            <div class="product-widget">
+                                <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                    class="venobox fas fa-play vbox-item" data-autoplay="true" data-vbtype="video"></a>
+                                <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                    data-bs-target="#product-view"></a>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <div class="product-rating">
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="active icofont-star"></i>
+                                <i class="icofont-star"></i>
+                                <a href="product-video.html">(3)</a>
+                            </div>
+                            <h6 class="product-name">
+                                <a href="product-video.html">فلفل سبز تازه</a>
+                            </h6>
+                            <h6 class="product-price">
+                                <del>34 ريال</del>
+                                <span>28 ريال<small>/کیلو</small></span>
+                            </h6>
+                            <button class="product-add" title="افزودن به سبد خرید">
+                                <i class="fas fa-shopping-basket"></i>
+                                <span>افزودن</span>
+                            </button>
+                            <div class="product-action">
+                                <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                    value="1">
+                                <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-btn-25">
+                        <a href="shop-4column.html" class="btn btn-outline">
+                            <i class="fas fa-eye"></i>
+                            <span>موارد بیشتر</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=====================================
+                    RECENT PART END
+        =======================================-->
+
+    <!--=====================================
+                    NICHE PART START
+        =======================================-->
+    <section class="section niche-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h2>محصولات اختصاصی گرینی</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="nav nav-tabs py-3">
+                        <div class="col-12 col-sm-10 col-lg-3 mb-2 mb-lg-0">
+                            <h6 class="text-center text-sm-end">
+                                فیلتر بر اساس:
+                            </h6>
+                        </div>
+                        <li class="col-12 col-sm-4 col-lg-3">
+                            <select class="form-select" name="" id="">
+                                <option value=""> بر اساس تخفیف </option>
+                                <option value=""> بر اساس نام </option>
+                            </select>
+                        </li>
+                        <li class="col-12 col-sm-4 col-lg-3">
+                            <select class="form-select" name="" id="">
+                                <option value=""> دسته بندی </option>
+                                <option value=""> دسته بندی </option>
+                                <option value=""> دسته بندی </option>
+                                <option value=""> دسته بندی </option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-pane mt-3 fade show active" id="top-order">
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text order">314</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/01.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text order">314</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/02.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text order">314</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/03.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text order">314</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/04.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text order">314</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/05.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text order">314</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/06.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card product-disable">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text order">314</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/07.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text order">314</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/08.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text order">314</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/09.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text order">314</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/10.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="top-rate">
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text rate">4.8</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/11.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text rate">4.8</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/12.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text rate">4.8</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/13.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text rate">4.8</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/14.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text rate">4.8</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/15.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text rate">4.8</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/16.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card product-disable">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text rate">4.8</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/17.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text rate">4.8</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/18.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text rate">4.8</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/19.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text rate">4.8</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/20.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="top-disc">
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text off">-10%</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/06.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text off">-10%</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/07.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text off">-10%</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/08.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text off">-10%</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/09.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text off">-10%</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/10.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text off">-10%</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/11.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text off">-10%</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/12.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text off">-10%</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/13.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text off">-10%</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/14.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="product-media">
+                                <div class="product-label">
+                                    <label class="label-text off">-10%</label>
+                                </div>
+                                <button class="product-wish wish">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                                <a class="product-image" href="product-video.html">
+                                    <img src="images/product/15.jpg" alt="product">
+                                </a>
+                                <div class="product-widget">
+                                    <a title="Product Compare" href="compare.html" class="fas fa-random"></a>
+                                    <a title="Product Video" href="https://youtu.be/9xzcVxSBbG8"
+                                        class="venobox fas fa-play vbox-item" data-autoplay="true"
+                                        data-vbtype="video"></a>
+                                    <a title="Product View" href="#" class="fas fa-eye" data-bs-toggle="modal"
+                                        data-bs-target="#product-view"></a>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-rating">
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="active icofont-star"></i>
+                                    <i class="icofont-star"></i>
+                                    <a href="product-video.html">(3)</a>
+                                </div>
+                                <h6 class="product-name">
+                                    <a href="product-video.html">فلفل سبز تازه</a>
+                                </h6>
+                                <h6 class="product-price">
+                                    <del>34 ريال</del>
+                                    <span>28 ريال<small>/کیلو</small></span>
+                                </h6>
+                                <button class="product-add" title="افزودن به سبد خرید">
+                                    <i class="fas fa-shopping-basket"></i>
+                                    <span>افزودن</span>
+                                </button>
+                                <div class="product-action">
+                                    <button class="action-minus" title="کم کردن"><i class="icofont-minus"></i></button>
+                                    <input class="action-input" title="تعداد مورد نیاز" type="text" name="quantity"
+                                        value="1">
+                                    <button class="action-plus" title="زیاد کردن"><i class="icofont-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-btn-25">
+                        <a href="shop-4column.html" class="btn btn-outline">
+                            <i class="fas fa-eye"></i>
+                            <span>موارد بیشتر</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=====================================
+                    NICHE PART END
+        =======================================-->
+
+    <!--=====================================
+                     FOOTER PART START
+        =======================================-->
+    <footer class="footer-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-xl-3">
+                    <div class="footer-widget">
+                        <a class="footer-logo" href="#">
+                            <img src="images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="footer-widget contact">
+                        <h3 class="footer-title">راه های ارتباط</h3>
+                        <ul class="footer-contact">
+                            <li>
+                                <i class="icofont-ui-touch-phone"></i>
+                                <p class="custom-text-light">
+                                    <span> 081-32230063 </span>
+                                    <span> 09010791001 </span>
+                                </p>
+                            </li>
+                            <li>
+                                <i class="icofont-instagram"></i>
+                                <p class="custom-text-light"> eli_shop_malayer </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="footer-widget">
+                        <h3 class="footer-title"> آدرس </h3>
+                        <div class="footer-links">
+                            <p class="custom-text-light">
+                                ملایر - خیابان رجائی روبه روی کبابی حاج یوسف هایپر مارکت
+                                <span class="text-pink"> الی شاپ </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xl-3">
+                    <div class="footer-widget">
+                        <h3 class="footer-title">دانلود اپلیکیشن</h3>
+                        <div class="footer-app">
+                            <a href="#"><img src="images/google-store.png" alt="google"></a>
+                            <a href="#"><img src="images/app-store.png" alt="app"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-bottom">
+                        <p class="footer-copytext">
+                            © ساخته شده توسط
+                            <a target="_blank" href="https://eli-soft.ir">
+                                Eli-Soft
+                            </a>!
+                        </p>
+                        <p class="footer-copytext">© تمامی حقوق این سایت متعلق به <a target="_blank" href="#">
+                                Eli-Shop
+                            </a>
+                            است!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--=====================================
+                      FOOTER PART END
+        =======================================-->
+
+
+    <!--=====================================
+                    JS LINK PART START
+        =======================================-->
+    <!-- VENDOR -->
+    <script src="{% static '/vendor/bootstrap/jquery-1.12.4.min.js' %}"></script>
+    <script src="{% static '/vendor/bootstrap/popper.min.js' %}"></script>
+    <script src="{% static '/vendor/bootstrap/bootstrap.min.js' %}"></script>
+    <script src="{% static '/vendor/countdown/countdown.min.js' %}"></script>
+    <script src="{% static '/vendor/niceselect/nice-select.min.js' %}"></script>
+    <script src="{% static '/vendor/slickslider/slick.min.js' %}"></script>
+    <script src="{% static '/vendor/venobox/venobox.min.js' %}"></script>
+
+    <!-- CUSTOM -->
+    <script src="{% static '/js/nice-select.js' %}"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/accordion.js"></script>
+    <script src="js/venobox.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/main.js"></script>
+    <!--=====================================
+                    JS LINK PART END
+        =======================================-->
+
+</body>
+
+</html>
