@@ -40,6 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'apps.mainApp.apps.MainappConfig',
     'apps.productApp.apps.ProductappConfig',
+    'apps.authApp.apps.AuthappConfig',
+    'apps.cartApp.apps.CartappConfig',
+    'apps.factorApp.apps.FactorappConfig',
 ]
 
 MIDDLEWARE = [
@@ -80,7 +83,7 @@ WSGI_APPLICATION = 'elisShopPeroject.wsgi.application'
 DATABASES = {
      'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'elishop_db',
+        'NAME': 'elisshop_db',
         'USER': 'root',
         'PASSWORD': '8730310248Mey',
         'OPTIONS':{
@@ -114,7 +117,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'fa-ir'
 
-TIME_ZONE = 'ASIA/TEHRAN'
+TIME_ZONE = 'Asia/Tehran'
 
 USE_I18N = True
 
